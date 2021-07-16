@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("police/Roboto/Roboto-Regular.ttf") format("truetype");
+}
 body{
-    min-width:320px;
+    font-family:"Roboto";
     width:auto;
     margin:auto;
 }
@@ -33,13 +37,16 @@ h3{
     justify-content:center;
 }
 .back{
-    width:300px;
-    height:200px;
+    min-width:300px;
+    width:auto;
+    max-width:320px;
+    height:170px;
     object-fit:cover;
     border-radius:20px 20px 0px 0px;
 }
 .new{
-    position:absolute;
+    float:right;
+    
 }
 .coeur{
 }
@@ -55,14 +62,21 @@ h3{
 }
 .etape{
     border:1px solid black;
-    width:300px;
-    background-color:#f2f2f2;
-}
-#restaurants{
-    background-color:#F2F2F2;
-    width:300px;
+    min-width:300px;
+    background-color:#999491;
     display:flex;
     flex-direction:column;
+    align-items:center;
+    align-content:space-between;
+    margin-top:5%;
+    border-radius:20px;
+}
+#restaurants{
+    background-color:#999491;
+    min-width:320px;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
     align-items:center;
     justify-content:center;
 }
@@ -73,4 +87,7 @@ h3{
     background-color:white;
     object-fit:cover;
     border-radius:20px;
+}
+footer{
+    min-width:320px;
 }
