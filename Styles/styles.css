@@ -1,1 +1,14 @@
-fggd
+body{
+    min-width:320px;
+    width:auto;
+    margin:auto;
+}
+.icone{
+    height:20px;
+}
+.icone-small{
+    height:15px;
+}
+ul{
+    list-style-type:none;
+}
