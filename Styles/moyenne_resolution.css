@@ -15,8 +15,8 @@
         position:absolute;
     }
     .etape{
-        min-width:200px;
-        margin:10% 5% 2% 5%;
+        min-width:210px;
+        margin:10% 0% 2% 5%;
         height:50px;
         display:flex;
         justify-content:center;
@@ -48,6 +48,22 @@
         background-color:#9356DC;
         color:white;
         font-weight:bold;
+    }
+    h4.logo{
+        font-size:25px;
+        margin-bottom:5px;
+    }
+    li{
+        font-size:15px;
+    }
+    .icone{
+        height:15px;
+    }
+    .icone-small{
+        height:15px;
+    }
+    p{
+        font-size:15px;
     }
     
 }

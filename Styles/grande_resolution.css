@@ -64,4 +64,18 @@
         color:white;
         font-weight:bold;
     }
+    h4.logo{
+        font-size:25px;
+        margin-bottom:5px;
+    }
+    li{
+        font-size:15px;
+    }
+    .icone{
+        height:20px;
+    }
+    .icone-small{
+        height:15px;
+        margin-right:5px;
+    }
 }
