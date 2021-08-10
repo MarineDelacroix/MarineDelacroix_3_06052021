@@ -28,6 +28,8 @@ header{
 }
 a{
     text-decoration:none;
+    color:black;
+    width:min-content;
 }
 #quote{
     background-color:#e0dede;

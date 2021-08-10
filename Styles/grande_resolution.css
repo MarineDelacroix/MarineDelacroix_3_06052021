@@ -41,5 +41,7 @@
     }
     a{
         width:min-content;
+        text-decoration:none;
+        color:black;
     }
 }
