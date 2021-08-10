@@ -1,0 +1,32 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    #restaurants{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+    .titre_s2{
+        position:absolute;
+    }
+    #fonctionnement{
+        display:flex;
+        flex-direction:row;
+    }
+    .titre_s1{
+        position:absolute;
+    }
+    .etape{
+        min-width:200px;
+        margin:10% 5% 2% 5%;
+        height:50px;
+        display:flex;
+        justify-content:center;
+    }
+    figure.element{
+        margin-top:15%;
+    }
+    a{
+        max-width:min-content;
+        height:100%;
+    }
+    
+}

@@ -1,0 +1,45 @@
+@media (min-width: 1024px){
+    #restaurants{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        min-width:1024px;
+        width:100%;
+    }
+    .titre_s2{
+        position:absolute;
+        padding-bottom:50px;
+    }
+    figure.element{
+        flex-basis:200px;
+        object-fit:cover;
+        max-width:250px;
+        margin-top:25%;
+    }
+    figure.element:first-child{
+        margin-left:0px;
+        margin-right:0px;
+    }
+    img.back{
+        min-width:250px;
+        max-width:400px;
+    }
+    #fonctionnement{
+        display:flex;
+        flex-direction:row;
+    }
+    .titre_s1{
+        position:absolute;
+    }
+    .etape{
+        margin:10% 5% 2% 5%;
+        min-width:250px;
+        max-width:400px;
+        height:50px;
+        display:flex;
+        justify-content:center;
+    }
+    a{
+        width:min-content;
+    }
+}
