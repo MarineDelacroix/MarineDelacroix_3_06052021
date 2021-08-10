@@ -223,3 +223,12 @@ figcaption.name{
 p{
     margin:0px;
 }
+.number{
+    position:absolute;
+    border-radius:35px;
+    padding:1% 1.5% 1% 1.5%;
+    margin-right:300px;
+    background-color:#9356DC;
+    color:white;
+    font-weight:bold;
+}

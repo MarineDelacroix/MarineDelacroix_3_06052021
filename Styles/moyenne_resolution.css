@@ -40,6 +40,14 @@
         flex-direction:column;
         justify-content:flex-start;
     }
+    .number{
+        position:absolute;
+        border-radius:35px;
+        padding:0.75% 1% 0.75% 1%;
+        margin-right:200px;
+        background-color:#9356DC;
+        color:white;
+        font-weight:bold;
     }
     
 }
