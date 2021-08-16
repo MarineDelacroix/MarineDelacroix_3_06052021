@@ -78,4 +78,13 @@
         height:15px;
         margin-right:5px;
     }
+    main{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+
+    }
+    section.menu{
+        max-width:33%;
+    }
 }
