@@ -180,6 +180,10 @@ h3{
     justify-content:center;
     padding-top:10%;
 }
+p.price{
+    font-weight:bold;
+
+}
 .titre_s2{
     position:absolute;
     float:left;
