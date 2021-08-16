@@ -178,7 +178,7 @@ h3{
     align-content:center;
     align-items:center;
     justify-content:center;
-    padding-top:10%;
+    padding-top:15%;
 }
 p.price{
     font-weight:bold;
@@ -191,7 +191,7 @@ p.price{
     position:absolute;
     float:left;
     margin-bottom:1060px;
-    margin-left:-60%;
+    margin-left:-62%;
 
 }
 .element{
