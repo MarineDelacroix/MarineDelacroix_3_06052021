@@ -184,6 +184,9 @@ p.price{
     font-weight:bold;
 
 }
+.list a{
+    color:white;
+}
 .titre_s2{
     position:absolute;
     float:left;
