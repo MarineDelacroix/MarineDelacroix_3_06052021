@@ -74,4 +74,9 @@
     section.menu{
         max-width:50%;
     }
+    .titre_s2{
+        position:absolute;
+        margin-bottom:700px;
+    
+    }
 }

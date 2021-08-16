@@ -19,6 +19,7 @@ main{
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content:center;
 }
 #main_menu{
     background-color:#f6f6f6;
@@ -105,6 +106,12 @@ h3{
     border-radius:20px 20px 0px 0px;
 }
 .new{
+    position:absolute;
+    background-color:#99e2d0;
+    color:#008766;
+    margin-left:-95px;
+    margin-top:15px;
+    padding:5px 10px 5px 10px;
     float:right;
     
 }
@@ -145,20 +152,27 @@ h3{
 #restaurants{
     background-color:#f6f6f6;
     min-width:320px;
+    width:100%;
     display:flex;
     flex-direction:column;
     align-content:center;
     align-items:center;
     justify-content:center;
+    padding-top:10%;
 }
-#restaurants h2{
-    align-self:flex-start;
+.titre_s2{
+    position:absolute;
+    float:left;
+    margin-bottom:1060px;
+    margin-left:-60%;
+
 }
 .element{
     background-color:white;
     object-fit:cover;
     border-radius:20px;
     box-shadow:5px 5px #ececec;
+    margin:12px;
 }
 .element:hover{
     box-shadow:10px 10px #eaeaea;
@@ -181,6 +195,11 @@ footer{
     height:20px;
     margin:10%;
     margin-right:0;
+}
+.coeur{
+    position:absolute;
+    margin-top:-30px;
+    margin-left:270px;
 }
 .logo-menu{
     font-family:"Shrikhand";

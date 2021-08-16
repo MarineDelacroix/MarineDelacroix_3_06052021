@@ -78,6 +78,11 @@
         height:15px;
         margin-right:5px;
     }
+    .coeur{
+        position:absolute;
+        margin-top:-30px;
+        margin-left:215px;
+    }
     main{
         display:flex;
         flex-direction:row;
@@ -86,5 +91,40 @@
     }
     section.menu{
         max-width:33%;
+        height:500px;
+        margin-top:-5%;
+        display:flex;
+        justify-content:flex-start;
+
     }
+    #name-menu{
+        font-size:40px;
+        margin:0px;
+        padding-bottom:2%;
+    }
+    .icone-menu{
+        margin:6%;
+        height:30px;
+    }
+    .back-menu{
+        height:auto;
+        max-height:600px;
+        min-width:100%;
+        object-fit:cover;
+    }
+    .logo-menu{
+        font-size:40px;
+        margin-left:5%;
+    }
+    .step{
+        font-size:20px;
+        margin-left:30px;
+    }
+    .titre_s2{
+        position:absolute;
+        margin-bottom:400px;
+        margin-left:-20%;
+    
+    }
+    
 }
