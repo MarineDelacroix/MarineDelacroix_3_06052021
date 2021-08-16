@@ -5,10 +5,14 @@
         justify-content:space-evenly;
         min-width:1024px;
         width:100%;
+        padding-top:3%;
     }
     .titre_s2{
         position:absolute;
         padding-bottom:50px;
+        position:absolute;
+        margin-bottom:250px;
+        margin-left:-85%;
     }
     figure.element{
         flex-basis:200px;
@@ -121,11 +125,6 @@
         font-size:20px;
         margin-left:30px;
     }
-    .titre_s2{
-        position:absolute;
-        margin-bottom:400px;
-        margin-left:-20%;
     
-    }
     
 }
