@@ -15,6 +15,13 @@
     .titre_s1{
         position:absolute;
     }
+    #name-menu{
+        font-size:40px;
+    }
+    .logo-menu{
+        font-size:40px;
+        margin-right:100%;
+    }
     .etape{
         min-width:220px;
         margin:10% 0% 2% 5%;
