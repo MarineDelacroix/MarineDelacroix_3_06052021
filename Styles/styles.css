@@ -55,6 +55,7 @@ p{
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
+    align-items:center;
 }
 #quote_pc-tab{
     display:none;
@@ -70,10 +71,22 @@ h4.logo{
 }
 .icone{
     height:15px;
-    margin-left:25px;
+    margin-right:30px;
 }
 .icone-small{
     height:10px;
+}
+#explore{
+    background-color:#ff79da;
+    border:none;
+    border-radius:50px 50px 50px 50px;
+    width:300px;
+    height:70px;
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+    position:center;
+    margin-bottom:50px;
 }
 ul{
     list-style-type:none;
@@ -120,8 +133,6 @@ h3{
     font-size:20px;
     text-align:center;
 }
-.coeur{
-}
 #fonctionnement{
     display:flex;
     flex-direction:column;
@@ -132,6 +143,7 @@ h3{
 }
 #fonctionnement h2{
     align-self:flex-start;
+    margin-left:-15px;
 }
 .etape{
     min-width:300px;
@@ -148,6 +160,14 @@ h3{
     justify-content:center;
     box-shadow: 5px 5px #ececec;
     border-radius:20px;
+}
+.etape p{
+    display:flex;
+    font-weight:bold;
+
+}
+.grey.store{
+    margin-right:25%;
 }
 #restaurants{
     background-color:#f6f6f6;
@@ -200,6 +220,13 @@ footer{
     position:absolute;
     margin-top:-30px;
     margin-left:270px;
+    height:18px;
+}
+.legende{
+    margin-left:2%;
+}
+.legende li{
+    font-size:15px;
 }
 .logo-menu{
     font-family:"Shrikhand";

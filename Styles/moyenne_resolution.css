@@ -6,6 +6,7 @@
     }
     .titre_s2{
         position:absolute;
+        margin-left:-200px;
     }
     #fonctionnement{
         display:flex;
@@ -15,7 +16,7 @@
         position:absolute;
     }
     .etape{
-        min-width:210px;
+        min-width:220px;
         margin:10% 0% 2% 5%;
         height:50px;
         display:flex;
@@ -39,6 +40,7 @@
         display:flex;
         flex-direction:column;
         justify-content:flex-start;
+        align-items:center;
     }
     .number{
         position:absolute;
@@ -76,7 +78,11 @@
     }
     .titre_s2{
         position:absolute;
-        margin-bottom:700px;
+        margin-bottom:625px;
+        margin-right:450px;
     
+    }
+    .icone{
+        margin-right:1px;
     }
 }
