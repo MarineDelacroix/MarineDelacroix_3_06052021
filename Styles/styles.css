@@ -1,3 +1,52 @@
+@keyframes loading{
+    0%{
+      transform:scale(1);
+      opacity:1;
+    }
+    20%{
+      transform:scale(1);
+      opacity:1;
+    }
+    50%{
+      transform:scale(1);
+      opacity:0.75;
+    }
+    70%{
+      transform:scale(1);
+      opacity:0.5;
+    }
+    80%{
+      transform:scale(1);
+      opacity:0.2;
+    }
+    90%{
+      transform:scale(1);
+      opacity:0.001;
+    }
+    100%{
+      transform:scale(0);
+      opacity:0;
+    }
+  }
+  @keyframes infinite-spinning {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(10turn);
+    }
+  }
+  @keyframes appear{
+    0%{
+      opacity:0;
+    }
+    60%{
+      opacity:0;
+    }
+    100%{
+      opacity:1;
+    }
+  }
 @font-face {
     font-family: "Roboto-Regular";
     src: url("police/Roboto/Roboto-Regular.ttf") format("truetype");
@@ -10,11 +59,31 @@
     font-family: "Roboto-Thin";
     src: url("police/Roboto/Roboto-Thin.ttf") format("truetype");
 }
-.load{
-    height:100%;
+.load1{
     width:100%;
-    background-color:#f6f6f6;
-}
+    position:absolute;
+    height:100%;
+    z-index:1;
+    opacity:0;
+    transform:opacity 400ms;
+    background-color:#F6F6F6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .load1{
+    animation-name: loading;
+    animation-duration: 3500ms;
+    
+  }
+  .load1 > .spinner{
+    border:10px dotted black;
+    border-radius:200px;
+    padding:10px 25px 10px 25px;
+    height:50px;
+    animation-name: infinite-spinning;
+    animation-duration: 3500ms;
+  }
 body{
     font-family:"Roboto-Regular";
     width:auto;
@@ -235,12 +304,24 @@ footer{
     margin:10%;
     margin-right:0;
 }
+.coeur-vide{
+    position:absolute;
+    margin-top:-30px;
+    margin-left:215px;
+    height:18px;
+}
+.coeur-vide:hover + .coeur{
+    transform:scale(1)
+}
 .coeur{
+    transition-duration:1500ms;
+    transition-property:transform;
+    transform:scale(0);
     position:absolute;
     margin-top:-30px;
     margin-left:270px;
     height:18px;
-}
+  }
 .legende{
     margin-left:2%;
 }
@@ -279,6 +360,21 @@ footer{
 figcaption.name{
     display:flex;
     margin-top:-15%;
+}
+#appear-1{
+    animation-name:appear;
+    animation-duration:1500ms;
+    animation-delay:0s;
+}
+#appear-2{
+    animation-name:appear;
+    animation-duration:2500ms;
+    animation-delay:0s;
+}
+#appear-3{
+    animation-name:appear;
+    animation-duration: 3500ms;
+    animation-delay:0s;
 }
 .menu{
     display:flex;
