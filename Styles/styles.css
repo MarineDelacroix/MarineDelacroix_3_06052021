@@ -126,10 +126,16 @@ p{
 .line-1 p{
     font-size:16px;
     margin:2%;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .line-price p{
     font-size:14px;
     margin-left:2%;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 #quote{
     background-color:#f6f6f6;
@@ -181,13 +187,24 @@ ul{
 .list li{
     font-size:13px;
     margin-left:5%;
+    text-overflow:ellipsis;
 }
 .list_menu{
     list-style-type:none;
-    position:absolute;
+    transform:scaleX(1);
+    transition-property:transform;
+    transition-duration:2s;
+    transform-origin:left 0%;
     margin-top:-80px;
+    width:500px;
     white-space:nowrap;
-    
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.meal:hover > .list_menu{
+    max-width:200px;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 h3{
     font-family:"Roboto-Thin";
@@ -421,31 +438,32 @@ figcaption.name{
     transform-origin:left 50%;
 }
 .anim-menu{
-    background-color:rosybrown;
+    background-color:#99E2D0;
     display:flex;
     align-items:center;
     justify-content:center;
+    z-index:auto;
     visibility:hidden;
+    overflow:hidden;
     margin:0 auto;
-    margin-right:-50px;
-    width:50px;
-    border-radius:20px;
+    margin-right:-100px;
+    width:100px;
     height:75px;
     transition: transform 330ms ease-in-out;
     
-  }
+}
 .meal:hover > .anim-menu{
     transform:translate(-100px,0);
     visibility:visible;
-  }
-  .btn{
+}
+.btn{
     height:25px;
-  }
-  .meal:hover > .anim-menu > .btn{
+}
+.meal:hover > .anim-menu > .btn{
     
     animation-name: spin;
     animation-duration:1s;
-  }
+}
 .step{
     align-self:flex-start;
     border-bottom: 3px solid #99e2d0;
