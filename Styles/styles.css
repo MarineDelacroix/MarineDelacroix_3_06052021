@@ -75,7 +75,6 @@
     height:100%;
     z-index:-1;
     opacity:0;
-    transform:opacity 400ms;
     background-color:#F6F6F6;
     display:flex;
     justify-content:center;
@@ -140,7 +139,6 @@ p{
 	white-space: nowrap;
 }
 .line-price > .price{
-    text-overflow: none;
     white-space:nowrap;
     overflow:visible;
 }
@@ -186,7 +184,6 @@ h4.logo{
     font-weight: bold;
     box-shadow:0px 5px 5px rgba(126, 126, 126, 0.5);
     color: white;
-    position:center;
     margin-bottom:50px;
 }
 #explore:hover{
@@ -252,7 +249,7 @@ h3{
 }
 .titre{
     font-weight:bold;
-    font-size:20px;
+    font-size:26px;
     text-align:center;
 }
 #fonctionnement{
