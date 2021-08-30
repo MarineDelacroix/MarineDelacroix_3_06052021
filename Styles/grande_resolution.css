@@ -7,12 +7,21 @@
         width:100%;
         padding-top:3%;
     }
+    .icone{
+        margin-right:10px;
+    }
     .titre_s2{
         position:absolute;
         padding-bottom:50px;
-        position:absolute;
         margin-bottom:250px;
-        margin-left:-85%;
+        margin-left:200px;
+    }
+    .meal:hover > .list_menu{
+        max-width:72%;
+    }
+    .coeur-vide{
+        margin-left:215px;
+        height:18px;
     }
     figure.element{
         flex-basis:200px;

@@ -6,7 +6,8 @@
     }
     .titre_s2{
         position:absolute;
-        margin-left:-200px;
+        margin-bottom:625px;
+        margin-left:200px;
     }
     #fonctionnement{
         display:flex;
@@ -21,6 +22,14 @@
     .logo-menu{
         font-size:40px;
         margin-right:100%;
+    }
+    .icone.coeur{
+        height:25px;
+        margin-top:-35px;
+    }
+    .icone.coeur-vide{
+        height:25px;
+        margin-top:-35px;
     }
     .etape{
         min-width:220px;
@@ -82,12 +91,6 @@
     }
     section.menu{
         max-width:50%;
-    }
-    .titre_s2{
-        position:absolute;
-        margin-bottom:625px;
-        margin-right:450px;
-    
     }
     .icone{
         margin-right:1px;

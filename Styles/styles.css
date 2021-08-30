@@ -2,6 +2,7 @@
     0%{
       transform:scale(1);
       opacity:1;
+      z-index:1;
     }
     20%{
       transform:scale(1);
@@ -72,7 +73,7 @@
     width:100%;
     position:absolute;
     height:100%;
-    z-index:1;
+    z-index:-1;
     opacity:0;
     transform:opacity 400ms;
     background-color:#F6F6F6;
@@ -127,15 +128,21 @@ p{
     font-size:16px;
     margin:2%;
     overflow: hidden;
-	text-overflow: ellipsis;
 	white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .line-price p{
     font-size:14px;
     margin-left:2%;
+    font-weight:normal;
     overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+.line-price > .price{
+    text-overflow: none;
+    white-space:nowrap;
+    overflow:visible;
 }
 #quote{
     background-color:#f6f6f6;
@@ -155,8 +162,9 @@ p{
 }
 h4.logo{
     font-family:"Shrikhand";
-    font-size:13px;
+    font-size:26px;
     color:white;
+    margin-bottom:0px;
     padding-top:25px;
     margin-left:5%;
 }
@@ -164,6 +172,7 @@ h4.logo{
     height:15px;
     margin-right:30px;
 }
+
 .icone-small{
     height:10px;
 }
@@ -185,7 +194,7 @@ ul{
     margin:0px;
 }
 .list li{
-    font-size:13px;
+    font-size:16px;
     margin-left:5%;
     text-overflow:ellipsis;
 }
@@ -196,13 +205,12 @@ ul{
     transition-duration:2s;
     transform-origin:left 0%;
     margin-top:-80px;
-    width:500px;
     white-space:nowrap;
     text-overflow:ellipsis;
     overflow:hidden;
 }
 .meal:hover > .list_menu{
-    max-width:200px;
+    max-width:72%;
     overflow:hidden;
     text-overflow:ellipsis;
 }
@@ -267,8 +275,11 @@ h3{
     height:80px;
     display:flex;
     justify-content:center;
-    box-shadow: 5px 5px #ececec;
+    box-shadow: 3px 3px 3px 3px rgba(126, 126, 126, 0.3);
     border-radius:20px;
+}
+.etape:hover{
+    box-shadow: 5px 5px 5px 5px rgba(126, 126, 126, 0.8);
 }
 .etape p{
     display:flex;
@@ -298,20 +309,18 @@ p.price{
 }
 .titre_s2{
     position:absolute;
-    float:left;
+    margin-right:220px;
     margin-bottom:1060px;
-    margin-left:-62%;
-
 }
 .element{
     background-color:white;
     object-fit:cover;
     border-radius:20px;
-    box-shadow:5px 5px #ececec;
+    box-shadow: 3px 3px 3px 3px rgba(126, 126, 126, 0.3);
     margin:12px;
 }
 .element:hover{
-    box-shadow:10px 10px #eaeaea;
+    box-shadow: 5px 5px 5px 5px rgba(126, 126, 126, 0.8);
 }
 footer{
     min-width:320px;
@@ -336,8 +345,8 @@ footer{
 .coeur-vide{
     position:absolute;
     margin-top:-30px;
-    margin-left:215px;
-    height:18px;
+    margin-left:270px;
+    height:20px;
 }
 .coeur-vide:hover + .coeur{
     transform:scale(1)
@@ -349,7 +358,7 @@ footer{
     position:absolute;
     margin-top:-30px;
     margin-left:270px;
-    height:18px;
+    height:20px;
   }
 .legende{
     margin-left:2%;
@@ -363,8 +372,8 @@ footer{
     margin-left:25%;
 }
 .back-menu{
-    height:auto;
-    min-width:320px;
+    max-height:500px;;
+    min-width:100%;
     max-width:100%;
     flex-basis:100%;
     object-fit:cover;
@@ -372,6 +381,7 @@ footer{
 #img-menu{
     object-fit: cover;
     width: 100%;
+    overflow:hidden;
 }
 #name-menu{
     font-family:"Shrikhand";
@@ -427,7 +437,7 @@ figcaption.name{
     width:90%;
     height:70px;
     overflow:hidden;
-    box-shadow:3px 3px 3px 3px #ececec;
+    box-shadow: 5px 5px rgba(246, 246, 246,0.3);
     background-color:white;
     border-radius:20px 20px 20px 20px;
     margin-bottom:5%;
@@ -447,7 +457,7 @@ figcaption.name{
     overflow:hidden;
     margin:0 auto;
     margin-right:-100px;
-    width:100px;
+    width:75px;
     height:75px;
     transition: transform 330ms ease-in-out;
     
@@ -479,6 +489,12 @@ figcaption.name{
 }
 p{
     margin:0px;
+    font-weight:bold;
+    font-size:16px;
+}
+.icone.black{
+    height:25px;
+    margin-right:10px;
 }
 .number{
     position:absolute;
