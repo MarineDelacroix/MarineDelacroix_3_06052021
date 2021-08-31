@@ -70,6 +70,10 @@
     font-family: "Roboto-Thin";
     src: url("police/Roboto/Roboto-Thin.ttf") format("truetype");
 }
+@font-face {
+    font-family: "Roboto-Bold";
+    src:url("police/Roboto/Roboto-Bold.ttf") format("truetype");
+}
 .load1{
     width:100%;
     position:absolute;
@@ -249,8 +253,9 @@ h3{
     
 }
 .titre{
-    font-weight:bold;
-    font-size:20px;
+    font-family:"Roboto-Bold";
+    font-weight:900;
+    font-size:25px;
     text-align:center;
 }
 #fonctionnement{
