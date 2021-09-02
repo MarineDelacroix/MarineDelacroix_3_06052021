@@ -49,8 +49,8 @@
     .titre_s2{
         position:absolute;
         padding-bottom:50px;
-        margin-left:200px;
-        margin-top:700px;
+        margin-left:170px;
+        margin-top:720px;
     }
     .meal:hover > .list_menu{
         max-width:72%;
