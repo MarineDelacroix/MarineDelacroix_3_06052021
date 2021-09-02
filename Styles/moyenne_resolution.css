@@ -3,6 +3,8 @@
         display:flex;
         flex-direction:row;
         flex-wrap:wrap;
+        padding-top:5%;
+        margin-top:0;
     }
     .titre_s2{
         position:absolute;
@@ -12,12 +14,15 @@
     #fonctionnement{
         display:flex;
         flex-direction:row;
+        margin-bottom:50px;
     }
     .titre_s1{
         position:absolute;
     }
     #name-menu{
         font-size:40px;
+        padding-bottom:10%;
+        padding-top:2%;
     }
     .logo-menu{
         font-size:40px;
@@ -38,9 +43,31 @@
         display:flex;
         justify-content:center;
     }
+    .etape p{
+        font-size:15px;
+    }
     figure.element{
         margin-top:15%;
     }
+    .icone-menu{
+        position:absolute;
+        margin-left:70%;
+        height:30px;
+        margin-top:70px;
+
+    }
+    .icone-menu:hover + .coeur1{
+        transform:scale(1)
+    }
+    .coeur1{
+        transition-duration:1500ms;
+        transition-property:transform;
+        transform:scale(0);
+        position:absolute;
+        margin-left:70%;
+        margin-top:70px;
+        height:30px;
+      }
     #explore-pc-tab{
         background:linear-gradient(to bottom right, #ff79da, #9356dc);
         border:none;
@@ -77,8 +104,8 @@
     .number{
         position:absolute;
         border-radius:35px;
-        padding:0.75% 1% 0.75% 1%;
-        margin-right:200px;
+        padding:5px 10px;
+        margin-right:220px;
         background-color:#9356DC;
         color:white;
         font-weight:bold;
@@ -91,7 +118,7 @@
         font-size:15px;
     }
     .icone{
-        height:15px;
+        height:20px;
     }
     .icone-small{
         height:15px;
