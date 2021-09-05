@@ -321,17 +321,26 @@ h3{
     justify-content:center;
     box-shadow:0px 10px 20px 1px #ececec;
     border-radius:20px;
+    white-space:nowrap;
 }
 .etape:hover{
     box-shadow:0px 10px 20px 1px #7e7e7e;
     background-color: #f5edff;
 }
+i.fas{
+    color:#7e7e7e;
+    padding-right:5%;
+    margin-left:-20px;;
+}
+.etape:hover i{
+    color:#9356DC;
+}
 .etape p{
     display:flex;
     font-weight:bold;
     font-size:18px;
-
 }
+
 .grey.store{
     margin-right:25%;
 }
