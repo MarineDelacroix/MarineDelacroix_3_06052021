@@ -324,7 +324,7 @@ h3{
 }
 .etape:hover{
     box-shadow:0px 10px 20px 1px #7e7e7e;
-    background-color: white;
+    background-color: #f5edff;
 }
 .etape p{
     display:flex;
