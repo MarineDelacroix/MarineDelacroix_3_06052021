@@ -29,8 +29,8 @@
         margin-right:100%;
     }
     .icone.coeur{
-        height:25px;
-        margin-top:-35px;
+        height:29px;
+        margin-top:-37px;
     }
     .icone.coeur-vide{
         height:25px;
@@ -64,9 +64,9 @@
         transition-property:transform;
         transform:scale(0);
         position:absolute;
-        margin-left:70%;
-        margin-top:70px;
-        height:30px;
+        margin-left:69.75%;
+        margin-top:68px;
+        height:34px;
       }
     #explore-pc-tab{
         background:linear-gradient(to bottom right, #ff79da, #9356dc);
@@ -117,9 +117,7 @@
     li{
         font-size:15px;
     }
-    .icone{
-        height:20px;
-    }
+    
     .icone-small{
         height:15px;
     }

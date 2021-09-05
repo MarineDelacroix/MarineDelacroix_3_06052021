@@ -37,9 +37,9 @@
         transition-property:transform;
         transform:scale(0);
         position:absolute;
-        margin-left:70%;
-        margin-top:40px;
-        height:30px;
+        margin-left:69.8%;
+        margin-top:38px;
+        height:35px;
       }
  
     #explore-pc-tab:hover{
@@ -136,17 +136,16 @@
     li{
         font-size:15px;
     }
-    .icone{
-        height:25px;
-    }
+    
     .icone-small{
         height:15px;
         margin-right:5px;
     }
     .coeur{
         position:absolute;
-        margin-top:-30px;
-        margin-left:215px;
+        margin-top:-33px;
+        margin-left:211.5px;
+        height:25px;
     }
     main{
         display:flex;
